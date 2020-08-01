@@ -5,21 +5,22 @@ body {
 }
 
 nav {
-    background-color: white;
+    background-color: rgb(53, 53, 53);
     height: 40px;
     width: 1920px;
     margin-bottom: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 nav p {
-    color: grey;
+    color: rgb(255, 255, 255);
     font-size: 16px;
     text-align: center;
     padding-top: 10px;
 }
 
 header {
-    
     width: 1366px;
     height: 500px;
     margin-left: auto;
@@ -59,6 +60,16 @@ mainimage {
     background-image: url(images/banana-on-yellow-photo-davidpahmp.jpg);
     width: 1920px;
     height: 744px;
+    text-decoration: none;
+}
+
+.background2 h2 {
+    font-family: 'Ranchers', cursive;
+    font-size: 6rem;
+    text-align: center;
+    padding-top: 330px;
+    letter-spacing: 50px;
+    color: rgb(39, 39, 39);
 }
 
 .contactus0 {
