@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-    background-color: rgb(53, 53, 53);
+    background-color: #353535;
     height: 20px;
     width: 1920px;
     margin-bottom: 50px;
@@ -16,6 +16,7 @@ nav {
 .menubuttons {
     width: 200px;
     display: inline-block;
+    position: relative;
 }
 
 .menubuttons a {
@@ -30,6 +31,7 @@ nav {
 
 /* this turns the drop down off when not used */
 .menudropdown-box {
+    background-color: #353535;
     display: none;
     position: absolute;
 }
@@ -37,6 +39,10 @@ nav {
 /* this class turns the drop down menu on during hover */
 .menubuttons:hover .menudropdown-box {
     display: block;
+}
+
+.menudropdown-box .menubuttons:hover {
+    background-color: #474747;
 }
 
 header {
