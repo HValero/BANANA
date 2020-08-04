@@ -11,8 +11,6 @@ nav {
     margin-bottom: 50px;
     text-align: center;
     padding-top: 5px;
-
-    
 }
 
 .menubuttons a {
@@ -23,7 +21,16 @@ nav {
     margin-left: 30px;
     font-family: 'Ranchers', cursive;
     letter-spacing: 1px;
-    
+}
+
+/* this turns the drop down off when not used */
+.menudropdown {
+    display: none;
+}
+
+/* this class turns the dropdown menu on during hover */
+.dropdownbox:hover .menudropdown {
+    display: block;
 }
 
 header {
@@ -56,7 +63,6 @@ header a {
     display: inline-block;
     margin-top: 20px;
     margin-left: 40%;
-
 }
 
 .mainbutton {
@@ -134,3 +140,4 @@ header a:hover {
     font-size: 6rem;
     text-align: center;
 }
+
