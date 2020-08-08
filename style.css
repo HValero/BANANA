@@ -198,6 +198,8 @@ footer {
     height: 260px;
     width: 20%;
     /* background-color: #818181; */ 
+    border-right: 1px solid rgba(255, 255, 255, 0.096);
+    
 }
 
 .space2 {
@@ -205,11 +207,12 @@ footer {
     width: 40%;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 25px;
-    font-size: 0.9rem;
+    line-height: 28px;
+    font-size: 0.8rem;
     column-count: 2;
-    padding-left: 20px;
+    padding-left: 100px;
     padding-right: 20px;
+
 }
 
 .space2 h3, h4 {
@@ -242,8 +245,8 @@ footer {
 .terms0 {
     display: flex;
     text-align: center;
-    padding-top: 5px;
-    font-size: 0.8rem;
+    padding-top: 8px;
+    font-size: 0.7rem;
     text-decoration: underline;
 }
 
