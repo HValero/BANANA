@@ -132,7 +132,7 @@ header a:hover {
     margin-left: auto;
     margin-right: auto;
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     color: #4b4b4b;
 }
 
@@ -198,15 +198,14 @@ footer {
     height: 260px;
     width: 20%;
     /* background-color: #818181; */ 
-    border-right: 1px solid rgba(255, 255, 255, 0.096);
     
 }
 
 .space2 {
     height: 260px;
-    width: 40%;
+    width: 30%;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     line-height: 28px;
     font-size: 0.8rem;
     column-count: 2;
@@ -222,14 +221,60 @@ footer {
 
 }
 
+.subscribe {
+    font-size: 1rem;
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    display: block;
+}
+
+.subscribe h2 {
+    margin-bottom: 5px;
+}
+
+.subscribe-button {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 35px;
+}
+
+.subscribe a {
+    color: #ffffff;
+}
+
+.trend-with-us h2 {
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.trend-with-us {
+    margin-top: 30px;
+}
+
+.trend-with-us p {
+    font-family: 'Maven Pro', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.icons-align {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+
 .space3 {
-    height: 260px;
-    width: 40%;
+    padding-top: 20px;
+}
+
+.space3 i {
+    width: 10%;
     /* background-color: #7a7a7a; */
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 25px;
-    font-size: 0.9rem;
+    font-size: 1.5rem;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .terms {
@@ -237,7 +282,7 @@ footer {
     height: 60px;
     width: 100%;
     border: 1px white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Maven Pro', sans-serif;
     border-top: 1px solid rgba(255, 255, 255, 0.246);
 
 }
