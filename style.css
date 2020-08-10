@@ -228,6 +228,10 @@ footer {
     font-size: 0.8rem;
 }
 
+.brandnames1, .brandnames2, .brandnames3 {
+    display: block;
+}
+
 .space2 {
     height: 260px;
     width: 30%;
