@@ -186,11 +186,13 @@ footer {
     height: 300px;
     width: 1920px;
     margin-top: 200px;
+
 }
 
 .spaces {
     display: flex;
     padding-top: 25px;
+    justify-content: center;
     
 }
 
